@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore sensitive keys (Security Risk!)
+.env
+
+# Ignore database files
+chroma_db/
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
